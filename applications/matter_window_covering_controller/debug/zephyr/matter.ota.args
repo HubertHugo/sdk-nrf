@@ -1,0 +1,12 @@
+--vendor-id
+65521
+--product-id
+32781
+--version
+0
+--version-str
+prerelease
+--digest-algorithm
+sha256
+/work/nrfconnect/nrf/applications/matter_weather_station/debug/zephyr/dfu_multi_image.bin
+/work/nrfconnect/nrf/applications/matter_weather_station/debug/zephyr/matter.ota

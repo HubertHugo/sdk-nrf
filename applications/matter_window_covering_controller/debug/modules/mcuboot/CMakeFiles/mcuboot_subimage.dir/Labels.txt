@@ -1,0 +1,13 @@
+# Target labels
+ mcuboot_subimage
+# Source files and their labels
+/work/nrfconnect/nrf/applications/matter_weather_station/debug/modules/mcuboot/CMakeFiles/mcuboot_subimage
+/work/nrfconnect/nrf/applications/matter_weather_station/debug/modules/mcuboot/CMakeFiles/mcuboot_subimage.rule
+/work/nrfconnect/nrf/applications/matter_weather_station/debug/modules/mcuboot/CMakeFiles/mcuboot_subimage-complete.rule
+/work/nrfconnect/nrf/applications/matter_weather_station/debug/modules/mcuboot/mcuboot_subimage-prefix/src/mcuboot_subimage-stamp/mcuboot_subimage-build.rule
+/work/nrfconnect/nrf/applications/matter_weather_station/debug/modules/mcuboot/mcuboot_subimage-prefix/src/mcuboot_subimage-stamp/mcuboot_subimage-configure.rule
+/work/nrfconnect/nrf/applications/matter_weather_station/debug/modules/mcuboot/mcuboot_subimage-prefix/src/mcuboot_subimage-stamp/mcuboot_subimage-download.rule
+/work/nrfconnect/nrf/applications/matter_weather_station/debug/modules/mcuboot/mcuboot_subimage-prefix/src/mcuboot_subimage-stamp/mcuboot_subimage-install.rule
+/work/nrfconnect/nrf/applications/matter_weather_station/debug/modules/mcuboot/mcuboot_subimage-prefix/src/mcuboot_subimage-stamp/mcuboot_subimage-mkdir.rule
+/work/nrfconnect/nrf/applications/matter_weather_station/debug/modules/mcuboot/mcuboot_subimage-prefix/src/mcuboot_subimage-stamp/mcuboot_subimage-patch.rule
+/work/nrfconnect/nrf/applications/matter_weather_station/debug/modules/mcuboot/mcuboot_subimage-prefix/src/mcuboot_subimage-stamp/mcuboot_subimage-update.rule

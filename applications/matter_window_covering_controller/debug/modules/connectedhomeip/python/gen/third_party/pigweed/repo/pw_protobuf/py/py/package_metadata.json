@@ -1,0 +1,23 @@
+{
+  "gn_target_name": "//third_party/pigweed/repo/pw_protobuf/py:py",
+  "inputs": [
+
+  ],
+  "setup_sources": [
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_protobuf/py/pyproject.toml",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_protobuf/py/setup.cfg",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_protobuf/py/setup.py"
+  ],
+  "sources": [
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_protobuf/py/pw_protobuf/__init__.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_protobuf/py/pw_protobuf/codegen_pwpb.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_protobuf/py/pw_protobuf/options.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_protobuf/py/pw_protobuf/output_file.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_protobuf/py/pw_protobuf/plugin.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_protobuf/py/pw_protobuf/proto_tree.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_protobuf/py/pw_protobuf/symbol_name_mapping.py"
+  ],
+  "tests": [
+
+  ]
+}

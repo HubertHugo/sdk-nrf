@@ -1,0 +1,13 @@
+# Target labels
+ chip-gn
+# Source files and their labels
+/work/nrfconnect/nrf/applications/matter_weather_station/debug/modules/connectedhomeip/CMakeFiles/chip-gn
+/work/nrfconnect/nrf/applications/matter_weather_station/debug/modules/connectedhomeip/CMakeFiles/chip-gn.rule
+/work/nrfconnect/nrf/applications/matter_weather_station/debug/modules/connectedhomeip/CMakeFiles/chip-gn-complete.rule
+/work/nrfconnect/nrf/applications/matter_weather_station/debug/modules/connectedhomeip/src/chip-gn-stamp/chip-gn-build.rule
+/work/nrfconnect/nrf/applications/matter_weather_station/debug/modules/connectedhomeip/src/chip-gn-stamp/chip-gn-configure.rule
+/work/nrfconnect/nrf/applications/matter_weather_station/debug/modules/connectedhomeip/src/chip-gn-stamp/chip-gn-download.rule
+/work/nrfconnect/nrf/applications/matter_weather_station/debug/modules/connectedhomeip/src/chip-gn-stamp/chip-gn-install.rule
+/work/nrfconnect/nrf/applications/matter_weather_station/debug/modules/connectedhomeip/src/chip-gn-stamp/chip-gn-mkdir.rule
+/work/nrfconnect/nrf/applications/matter_weather_station/debug/modules/connectedhomeip/src/chip-gn-stamp/chip-gn-patch.rule
+/work/nrfconnect/nrf/applications/matter_weather_station/debug/modules/connectedhomeip/src/chip-gn-stamp/chip-gn-update.rule

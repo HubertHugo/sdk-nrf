@@ -1,0 +1,23 @@
+{
+  "gn_target_name": "//third_party/pigweed/repo/pw_hdlc/py:py",
+  "inputs": [
+
+  ],
+  "setup_sources": [
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_hdlc/py/pyproject.toml",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_hdlc/py/setup.cfg",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_hdlc/py/setup.py"
+  ],
+  "sources": [
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_hdlc/py/pw_hdlc/__init__.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_hdlc/py/pw_hdlc/decode.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_hdlc/py/pw_hdlc/encode.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_hdlc/py/pw_hdlc/protocol.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_hdlc/py/pw_hdlc/rpc.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_hdlc/py/pw_hdlc/rpc_console.py"
+  ],
+  "tests": [
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_hdlc/py/decode_test.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_hdlc/py/encode_test.py"
+  ]
+}

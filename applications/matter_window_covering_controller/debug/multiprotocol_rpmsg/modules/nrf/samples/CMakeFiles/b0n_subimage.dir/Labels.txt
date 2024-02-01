@@ -1,0 +1,13 @@
+# Target labels
+ b0n_subimage
+# Source files and their labels
+/work/nrfconnect/nrf/applications/matter_weather_station/debug/multiprotocol_rpmsg/modules/nrf/samples/CMakeFiles/b0n_subimage
+/work/nrfconnect/nrf/applications/matter_weather_station/debug/multiprotocol_rpmsg/modules/nrf/samples/CMakeFiles/b0n_subimage.rule
+/work/nrfconnect/nrf/applications/matter_weather_station/debug/multiprotocol_rpmsg/modules/nrf/samples/CMakeFiles/b0n_subimage-complete.rule
+/work/nrfconnect/nrf/applications/matter_weather_station/debug/multiprotocol_rpmsg/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-build.rule
+/work/nrfconnect/nrf/applications/matter_weather_station/debug/multiprotocol_rpmsg/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-configure.rule
+/work/nrfconnect/nrf/applications/matter_weather_station/debug/multiprotocol_rpmsg/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-download.rule
+/work/nrfconnect/nrf/applications/matter_weather_station/debug/multiprotocol_rpmsg/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-install.rule
+/work/nrfconnect/nrf/applications/matter_weather_station/debug/multiprotocol_rpmsg/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-mkdir.rule
+/work/nrfconnect/nrf/applications/matter_weather_station/debug/multiprotocol_rpmsg/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-patch.rule
+/work/nrfconnect/nrf/applications/matter_weather_station/debug/multiprotocol_rpmsg/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-update.rule

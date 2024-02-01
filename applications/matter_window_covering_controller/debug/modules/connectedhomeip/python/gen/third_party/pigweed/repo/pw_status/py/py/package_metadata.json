@@ -1,0 +1,17 @@
+{
+  "gn_target_name": "//third_party/pigweed/repo/pw_status/py:py",
+  "inputs": [
+
+  ],
+  "setup_sources": [
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_status/py/pyproject.toml",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_status/py/setup.cfg",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_status/py/setup.py"
+  ],
+  "sources": [
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_status/py/pw_status/__init__.py"
+  ],
+  "tests": [
+
+  ]
+}

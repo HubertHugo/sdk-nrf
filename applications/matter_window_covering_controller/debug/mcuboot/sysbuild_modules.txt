@@ -1,0 +1,1 @@
+"nrf":"/work/nrfconnect/nrf":"/work/nrfconnect/nrf/sysbuild"

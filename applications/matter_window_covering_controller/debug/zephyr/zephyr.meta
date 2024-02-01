@@ -1,0 +1,218 @@
+modules:
+- name: nrf
+  path: /work/nrfconnect/nrf
+  revision: d5eb58b3ce993e460e18b0119a19a4e7b70ec126
+- name: hostap
+  path: /work/nrfconnect/modules/lib/hostap
+  revision: 42a92ba947785b35ad4e85cbf6e121e4d9a3bd50
+- name: wfa-qt-control-app
+  path: /work/nrfconnect/modules/lib/wfa-qt-control-app
+  revision: f3391efd16c909d78c36dc7f9c81901b268deecc
+- name: mcuboot
+  path: /work/nrfconnect/bootloader/mcuboot
+  revision: 823fd369c1430b50d263ccd6fbcf98bdd44001ba
+- name: mbedtls
+  path: /work/nrfconnect/modules/crypto/mbedtls
+  revision: 829e3edc7a635944bee1fffec1f77f1d27e17471
+- name: trusted-firmware-m
+  path: /work/nrfconnect/modules/tee/tf-m/trusted-firmware-m
+  revision: c5b393bb0bc9436c486c791d8698e1cdb8ed2c18
+- name: cjson
+  path: /work/nrfconnect/modules/lib/cjson
+  revision: c6af068b7f05207b28d68880740e4b9ec1e4b50a
+- name: azure-sdk-for-c
+  path: /work/nrfconnect/modules/lib/azure-sdk-for-c
+  revision: 308c171cb4b5eed266649012a68406487ec81fb2
+- name: cirrus-logic
+  path: /work/nrfconnect/modules/hal/cirrus-logic
+  revision: 9f6b3812237fbb0d4157ba3584c13f1644fcbe3a
+- name: openthread
+  path: /work/nrfconnect/modules/lib/openthread
+  revision: 37fb77098982d17555dd7a3f58832714bb9df56e
+- name: memfault-firmware-sdk
+  path: /work/nrfconnect/modules/lib/memfault-firmware-sdk
+  revision: efd97b97a3147c36aba7aac1b808714b41730027
+- name: canopennode
+  path: /work/nrfconnect/modules/lib/canopennode
+  revision: dec12fa3f0d790cafa8414a4c2930ea71ab72ffd
+- name: chre
+  path: /work/nrfconnect/modules/lib/chre
+  revision: b7955c27e50485b7dafdc3888d7d6afdc2ac6d96
+- name: cmsis
+  path: /work/nrfconnect/modules/hal/cmsis
+  revision: 74981bf893e8b10931464b9945e2143d99a3f0a3
+- name: fatfs
+  path: /work/nrfconnect/modules/fs/fatfs
+  revision: 427159bf95ea49b7680facffaa29ad506b42709b
+- name: hal_nordic
+  path: /work/nrfconnect/modules/hal/nordic
+  revision: a1c3e0fbaafda091139b8744becd4853ada2f747
+- name: st
+  path: /work/nrfconnect/modules/hal/st
+  revision: 5948f7b3304f1628a45ee928cd607619a7f53bbb
+- name: hal_wurthelektronik
+  path: /work/nrfconnect/modules/hal/wurthelektronik
+  revision: 24ca9873c3d608fad1fea0431836bc8f144c132e
+- name: libmetal
+  path: /work/nrfconnect/modules/hal/libmetal
+  revision: b91611a6f47dd29fb24c46e5621e797557f80ec6
+- name: liblc3
+  path: /work/nrfconnect/modules/lib/liblc3
+  revision: 448f3de31f49a838988a162ef1e23a89ddf2d2ed
+- name: littlefs
+  path: /work/nrfconnect/modules/fs/littlefs
+  revision: ca583fd297ceb48bced3c2548600dc615d67af24
+- name: loramac-node
+  path: /work/nrfconnect/modules/lib/loramac-node
+  revision: ce57712f3e426bbbb13acaec97b45369f716f43a
+- name: lvgl
+  path: /work/nrfconnect/modules/lib/gui/lvgl
+  revision: 7102083f626cda09e5792420ea60af0525cce9ae
+- name: lz4
+  path: /work/nrfconnect/modules/lib/lz4
+  revision: 8e303c264fc21c2116dc612658003a22e933124d
+- name: mipi-sys-t
+  path: /work/nrfconnect/modules/debug/mipi-sys-t
+  revision: a819419603a2dfcb47f7f39092e1bc112e45d1ef
+- name: nanopb
+  path: /work/nrfconnect/modules/lib/nanopb
+  revision: 42fa8b211e946b90b9d968523fce7b1cfe27617e
+- name: nrf_hw_models
+  path: /work/nrfconnect/modules/bsim_hw_models/nrf_hw_models
+  revision: 37c571ef7c4a86dad852566fc43eb36f42534e9f
+- name: open-amp
+  path: /work/nrfconnect/modules/lib/open-amp
+  revision: c904a01d4a882bcbb39987e0e2ce5308f49ac7ad
+- name: picolibc
+  path: /work/nrfconnect/modules/lib/picolibc
+  revision: d07c38ff051386f8e09a143ea0a6c1d6d66dd1d8
+- name: segger
+  path: /work/nrfconnect/modules/debug/segger
+  revision: 4bfaf28a11c3e5ec29badac744fab6d2f342749e
+- name: tinycrypt
+  path: /work/nrfconnect/modules/crypto/tinycrypt
+  revision: 3e9a49d2672ec01435ffbf0d788db6d95ef28de0
+- name: TraceRecorder
+  path: /work/nrfconnect/modules/debug/TraceRecorder
+  revision: bc839bf94904bcdb91b33760e918afbef82e3ab4
+- name: tf-m-tests
+  path: /work/nrfconnect/modules/tee/tf-m/tf-m-tests
+  revision: 0f80a65193ddbbe3f0ac38b33b07b26138c11fa7
+- name: psa-arch-tests
+  path: /work/nrfconnect/modules/tee/tf-m/psa-arch-tests
+  revision: 6a17330e0dfb5f319730f974d5b05f7b7f04757b
+- name: uoscore-uedhoc
+  path: /work/nrfconnect/modules/lib/uoscore-uedhoc
+  revision: e8920192b66db4f909eb9cd3f155d5245c1ae825
+- name: zcbor
+  path: /work/nrfconnect/modules/lib/zcbor
+  revision: 67fd8bb88d3136738661fa8bb5f9989103f4599e
+- name: zscilib
+  path: /work/nrfconnect/modules/lib/zscilib
+  revision: 34c3432e81085bb717e4871d21ca419ae0058ec5
+- name: nrfxlib
+  path: /work/nrfconnect/nrfxlib
+  revision: 1c255ae27098821da4ecc54a45ddb9b6e59fd41b
+- name: connectedhomeip
+  path: /work/nrfconnect/modules/lib/matter
+  revision: 7f724e8e7e1c819e6308998fa6ca29847ecdab60
+west:
+  manifest: /work/nrfconnect/nrf/west.yml
+  projects:
+  - path: /work/nrfconnect/nrf
+    revision: d5eb58b3ce993e460e18b0119a19a4e7b70ec126
+  - path: /work/nrfconnect/zephyr
+    revision: b37ce40878ec52295afe6350d17712d60eb6639a
+  - path: /work/nrfconnect/modules/lib/hostap
+    revision: 42a92ba947785b35ad4e85cbf6e121e4d9a3bd50
+  - path: /work/nrfconnect/modules/lib/wfa-qt-control-app
+    revision: f3391efd16c909d78c36dc7f9c81901b268deecc
+  - path: /work/nrfconnect/bootloader/mcuboot
+    revision: 823fd369c1430b50d263ccd6fbcf98bdd44001ba
+  - path: /work/nrfconnect/modules/tee/tf-m/qcbor
+    revision: b0e7033268e88c9f27146fa9a1415ef4c19ebaff
+  - path: /work/nrfconnect/modules/crypto/mbedtls
+    revision: 829e3edc7a635944bee1fffec1f77f1d27e17471
+  - path: /work/nrfconnect/nrfxlib
+    revision: 1c255ae27098821da4ecc54a45ddb9b6e59fd41b
+  - path: /work/nrfconnect/modules/tee/tf-m/trusted-firmware-m
+    revision: c5b393bb0bc9436c486c791d8698e1cdb8ed2c18
+  - path: /work/nrfconnect/modules/lib/matter
+    revision: 7f724e8e7e1c819e6308998fa6ca29847ecdab60
+  - path: /work/nrfconnect/modules/lib/cjson
+    revision: c6af068b7f05207b28d68880740e4b9ec1e4b50a
+  - path: /work/nrfconnect/modules/lib/azure-sdk-for-c
+    revision: 308c171cb4b5eed266649012a68406487ec81fb2
+  - path: /work/nrfconnect/modules/hal/cirrus-logic
+    revision: 9f6b3812237fbb0d4157ba3584c13f1644fcbe3a
+  - path: /work/nrfconnect/modules/lib/openthread
+    revision: 37fb77098982d17555dd7a3f58832714bb9df56e
+  - path: /work/nrfconnect/test/cmock
+    revision: f65066f15d8248e6dcb778efb8739904a4512087
+  - path: /work/nrfconnect/modules/lib/memfault-firmware-sdk
+    revision: efd97b97a3147c36aba7aac1b808714b41730027
+  - path: /work/nrfconnect/tools/bsim
+    revision: 384a091445c57b44ac8cbd18ebd245b47c71db94
+  - path: /work/nrfconnect/modules/lib/canopennode
+    revision: dec12fa3f0d790cafa8414a4c2930ea71ab72ffd
+  - path: /work/nrfconnect/modules/lib/chre
+    revision: b7955c27e50485b7dafdc3888d7d6afdc2ac6d96
+  - path: /work/nrfconnect/modules/hal/cmsis
+    revision: 74981bf893e8b10931464b9945e2143d99a3f0a3
+  - path: /work/nrfconnect/tools/edtt
+    revision: 64e5105ad82390164fb73fc654be3f73a608209a
+  - path: /work/nrfconnect/modules/fs/fatfs
+    revision: 427159bf95ea49b7680facffaa29ad506b42709b
+  - path: /work/nrfconnect/modules/hal/nordic
+    revision: a1c3e0fbaafda091139b8744becd4853ada2f747
+  - path: /work/nrfconnect/modules/hal/st
+    revision: 5948f7b3304f1628a45ee928cd607619a7f53bbb
+  - path: /work/nrfconnect/modules/hal/wurthelektronik
+    revision: 24ca9873c3d608fad1fea0431836bc8f144c132e
+  - path: /work/nrfconnect/modules/hal/libmetal
+    revision: b91611a6f47dd29fb24c46e5621e797557f80ec6
+  - path: /work/nrfconnect/modules/lib/liblc3
+    revision: 448f3de31f49a838988a162ef1e23a89ddf2d2ed
+  - path: /work/nrfconnect/modules/fs/littlefs
+    revision: ca583fd297ceb48bced3c2548600dc615d67af24
+  - path: /work/nrfconnect/modules/lib/loramac-node
+    revision: ce57712f3e426bbbb13acaec97b45369f716f43a
+  - path: /work/nrfconnect/modules/lib/gui/lvgl
+    revision: 7102083f626cda09e5792420ea60af0525cce9ae
+  - path: /work/nrfconnect/modules/lib/lz4
+    revision: 8e303c264fc21c2116dc612658003a22e933124d
+  - path: /work/nrfconnect/modules/debug/mipi-sys-t
+    revision: a819419603a2dfcb47f7f39092e1bc112e45d1ef
+  - path: /work/nrfconnect/modules/lib/nanopb
+    revision: 42fa8b211e946b90b9d968523fce7b1cfe27617e
+  - path: /work/nrfconnect/tools/net-tools
+    revision: e0828aa9629b533644dc96ff6d1295c939bd713c
+  - path: /work/nrfconnect/modules/bsim_hw_models/nrf_hw_models
+    revision: 37c571ef7c4a86dad852566fc43eb36f42534e9f
+  - path: /work/nrfconnect/modules/lib/open-amp
+    revision: c904a01d4a882bcbb39987e0e2ce5308f49ac7ad
+  - path: /work/nrfconnect/modules/lib/picolibc
+    revision: d07c38ff051386f8e09a143ea0a6c1d6d66dd1d8
+  - path: /work/nrfconnect/modules/debug/segger
+    revision: 4bfaf28a11c3e5ec29badac744fab6d2f342749e
+  - path: /work/nrfconnect/modules/crypto/tinycrypt
+    revision: 3e9a49d2672ec01435ffbf0d788db6d95ef28de0
+  - path: /work/nrfconnect/modules/debug/TraceRecorder
+    revision: bc839bf94904bcdb91b33760e918afbef82e3ab4
+  - path: /work/nrfconnect/modules/tee/tf-m/tf-m-tests
+    revision: 0f80a65193ddbbe3f0ac38b33b07b26138c11fa7
+  - path: /work/nrfconnect/modules/tee/tf-m/psa-arch-tests
+    revision: 6a17330e0dfb5f319730f974d5b05f7b7f04757b
+  - path: /work/nrfconnect/modules/lib/uoscore-uedhoc
+    revision: e8920192b66db4f909eb9cd3f155d5245c1ae825
+  - path: /work/nrfconnect/modules/lib/zcbor
+    revision: 67fd8bb88d3136738661fa8bb5f9989103f4599e
+  - path: /work/nrfconnect/modules/lib/zscilib
+    revision: 34c3432e81085bb717e4871d21ca419ae0058ec5
+workspace:
+  dirty: false
+  extra: false
+  'off': false
+zephyr:
+  path: null
+  revision: d5eb58b3ce993e460e18b0119a19a4e7b70ec126

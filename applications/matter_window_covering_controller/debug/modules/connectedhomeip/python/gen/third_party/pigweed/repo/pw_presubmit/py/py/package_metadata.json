@@ -1,0 +1,47 @@
+{
+  "gn_target_name": "//third_party/pigweed/repo/pw_presubmit/py:py",
+  "inputs": [
+
+  ],
+  "setup_sources": [
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_presubmit/py/pyproject.toml",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_presubmit/py/setup.cfg",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_presubmit/py/setup.py"
+  ],
+  "sources": [
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_presubmit/py/pw_presubmit/__init__.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_presubmit/py/pw_presubmit/bazel_parser.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_presubmit/py/pw_presubmit/build.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_presubmit/py/pw_presubmit/cli.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_presubmit/py/pw_presubmit/cpp_checks.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_presubmit/py/pw_presubmit/format_code.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_presubmit/py/pw_presubmit/git_repo.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_presubmit/py/pw_presubmit/gitmodules.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_presubmit/py/pw_presubmit/inclusive_language.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_presubmit/py/pw_presubmit/install_hook.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_presubmit/py/pw_presubmit/json_check.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_presubmit/py/pw_presubmit/keep_sorted.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_presubmit/py/pw_presubmit/module_owners.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_presubmit/py/pw_presubmit/ninja_parser.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_presubmit/py/pw_presubmit/npm_presubmit.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_presubmit/py/pw_presubmit/owners_checks.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_presubmit/py/pw_presubmit/pigweed_presubmit.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_presubmit/py/pw_presubmit/presubmit.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_presubmit/py/pw_presubmit/python_checks.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_presubmit/py/pw_presubmit/shell_checks.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_presubmit/py/pw_presubmit/source_in_build.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_presubmit/py/pw_presubmit/todo_check.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_presubmit/py/pw_presubmit/tools.py"
+  ],
+  "tests": [
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_presubmit/py/bazel_parser_test.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_presubmit/py/git_repo_test.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_presubmit/py/gitmodules_test.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_presubmit/py/keep_sorted_test.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_presubmit/py/ninja_parser_test.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_presubmit/py/presubmit_test.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_presubmit/py/owners_checks_test.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_presubmit/py/todo_check_test.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_presubmit/py/tools_test.py"
+  ]
+}

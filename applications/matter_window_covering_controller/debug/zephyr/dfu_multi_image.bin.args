@@ -1,0 +1,8 @@
+create
+--image
+0
+/work/nrfconnect/nrf/applications/matter_weather_station/debug/zephyr/app_update.bin
+--image
+1
+/work/nrfconnect/nrf/applications/matter_weather_station/debug/zephyr/net_core_app_update.bin
+/work/nrfconnect/nrf/applications/matter_weather_station/debug/zephyr/dfu_multi_image.bin

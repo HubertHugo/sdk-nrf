@@ -1,0 +1,6 @@
+menu "nrf (/work/nrfconnect/nrf)"
+osource "/work/nrfconnect/nrf/sysbuild/Kconfig.sysbuild"
+config ZEPHYR_NRF_MODULE
+	bool
+	default y
+endmenu

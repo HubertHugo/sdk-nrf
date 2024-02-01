@@ -1,0 +1,11 @@
+[
+  "/work/nrfconnect/nrf/applications/matter_weather_station/debug/modules/connectedhomeip/=out/",
+  "/work/nrfconnect/nrf/applications/matter_weather_station/debug/modules/connectedhomeip=",
+  "/work/nrfconnect/modules/lib/matter/=",
+  "../../../../../../modules/lib/matter/=",
+  "=out/",
+  "../../../../../../modules/lib/matter/=",
+  "/work/nrfconnect/modules/lib/matter/=",
+  "/work/nrfconnect/nrf/applications/matter_weather_station/debug/modules/connectedhomeip=",
+  "/work/nrfconnect/nrf/applications/matter_weather_station/debug/modules/connectedhomeip/=out/"
+]

@@ -1,0 +1,21 @@
+{
+  "gn_target_name": "//third_party/pigweed/repo/pw_toolchain/py:py",
+  "inputs": [
+
+  ],
+  "setup_sources": [
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_toolchain/py/pyproject.toml",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_toolchain/py/setup.cfg",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_toolchain/py/setup.py"
+  ],
+  "sources": [
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_toolchain/py/pw_toolchain/__init__.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_toolchain/py/pw_toolchain/bad_toolchain.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_toolchain/py/pw_toolchain/clang_arm_toolchain.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_toolchain/py/pw_toolchain/clang_tidy.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_toolchain/py/pw_toolchain/copy_with_metadata.py"
+  ],
+  "tests": [
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_toolchain/py/clang_tidy_test.py"
+  ]
+}

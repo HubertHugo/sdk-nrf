@@ -1,0 +1,33 @@
+sample:
+  name: Matter Window Covering Controller
+  description: Matter Window Covering Controller application
+tests:
+  # This configuration is used for performing DFU over BLE between different NCS
+  # applications on Thingy53.
+  applications.matter_window_covering_controller.debug.no_fd:
+    build_only: true
+    platform_allow: thingy53_nrf5340_cpuapp
+    platform_exclude: thingy53_nrf5340_cpuapp_ns
+    integration_platforms:
+      - thingy53_nrf5340_cpuapp
+  applications.matter_window_covering_controller.debug:
+    build_only: true
+    extra_args: OVERLAY_CONFIG=overlay-factory_data.conf
+    platform_allow: thingy53_nrf5340_cpuapp
+    platform_exclude: thingy53_nrf5340_cpuapp_ns
+    integration_platforms:
+      - thingy53_nrf5340_cpuapp
+  applications.matter_window_covering_controller.release:
+    build_only: true
+    extra_args: OVERLAY_CONFIG=overlay-factory_data.conf CONF_FILE=prj_release.conf
+    platform_allow: thingy53_nrf5340_cpuapp
+    platform_exclude: thingy53_nrf5340_cpuapp_ns
+    integration_platforms:
+      - thingy53_nrf5340_cpuapp
+  applications.matter_window_covering_controller.nrf7002eb:
+    build_only: true
+    extra_args: SHIELD=nrf7002eb CONF_FILE=prj_release.conf
+    platform_allow: thingy53_nrf5340_cpuapp
+    platform_exclude: thingy53_nrf5340_cpuapp_ns
+    integration_platforms:
+      - thingy53_nrf5340_cpuapp

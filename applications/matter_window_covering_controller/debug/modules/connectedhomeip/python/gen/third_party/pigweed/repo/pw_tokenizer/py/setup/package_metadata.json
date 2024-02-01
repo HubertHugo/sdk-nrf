@@ -1,0 +1,16 @@
+{
+  "gn_target_name": "//third_party/pigweed/repo/pw_tokenizer/py:setup",
+  "inputs": [
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_tokenizer/py/setup.cfg",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_tokenizer/py/pyproject.toml"
+  ],
+  "setup_sources": [
+
+  ],
+  "sources": [
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_tokenizer/py/setup.py"
+  ],
+  "tests": [
+
+  ]
+}

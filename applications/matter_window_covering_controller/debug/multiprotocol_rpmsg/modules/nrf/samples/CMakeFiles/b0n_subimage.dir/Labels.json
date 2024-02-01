@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/work/nrfconnect/nrf/applications/matter_weather_station/debug/multiprotocol_rpmsg/modules/nrf/samples/CMakeFiles/b0n_subimage"
+		},
+		{
+			"file" : "/work/nrfconnect/nrf/applications/matter_weather_station/debug/multiprotocol_rpmsg/modules/nrf/samples/CMakeFiles/b0n_subimage.rule"
+		},
+		{
+			"file" : "/work/nrfconnect/nrf/applications/matter_weather_station/debug/multiprotocol_rpmsg/modules/nrf/samples/CMakeFiles/b0n_subimage-complete.rule"
+		},
+		{
+			"file" : "/work/nrfconnect/nrf/applications/matter_weather_station/debug/multiprotocol_rpmsg/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-build.rule"
+		},
+		{
+			"file" : "/work/nrfconnect/nrf/applications/matter_weather_station/debug/multiprotocol_rpmsg/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-configure.rule"
+		},
+		{
+			"file" : "/work/nrfconnect/nrf/applications/matter_weather_station/debug/multiprotocol_rpmsg/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-download.rule"
+		},
+		{
+			"file" : "/work/nrfconnect/nrf/applications/matter_weather_station/debug/multiprotocol_rpmsg/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-install.rule"
+		},
+		{
+			"file" : "/work/nrfconnect/nrf/applications/matter_weather_station/debug/multiprotocol_rpmsg/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-mkdir.rule"
+		},
+		{
+			"file" : "/work/nrfconnect/nrf/applications/matter_weather_station/debug/multiprotocol_rpmsg/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-patch.rule"
+		},
+		{
+			"file" : "/work/nrfconnect/nrf/applications/matter_weather_station/debug/multiprotocol_rpmsg/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"b0n_subimage"
+		],
+		"name" : "b0n_subimage"
+	}
+}

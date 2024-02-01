@@ -1,0 +1,18 @@
+{
+  "gn_target_name": "//third_party/pigweed/repo/pw_thread_freertos/py:py",
+  "inputs": [
+
+  ],
+  "setup_sources": [
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_thread_freertos/py/pyproject.toml",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_thread_freertos/py/setup.cfg",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_thread_freertos/py/setup.py"
+  ],
+  "sources": [
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_thread_freertos/py/pw_thread_freertos/__init__.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_thread_freertos/py/pw_thread_freertos/generate_freertos_tsktcb.py"
+  ],
+  "tests": [
+
+  ]
+}

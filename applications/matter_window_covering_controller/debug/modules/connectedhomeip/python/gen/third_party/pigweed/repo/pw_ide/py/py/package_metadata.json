@@ -1,0 +1,33 @@
+{
+  "gn_target_name": "//third_party/pigweed/repo/pw_ide/py:py",
+  "inputs": [
+
+  ],
+  "setup_sources": [
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_ide/py/pyproject.toml",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_ide/py/setup.cfg",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_ide/py/setup.py"
+  ],
+  "sources": [
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_ide/py/pw_ide/__init__.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_ide/py/pw_ide/__main__.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_ide/py/pw_ide/activate.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_ide/py/pw_ide/cli.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_ide/py/pw_ide/commands.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_ide/py/pw_ide/cpp.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_ide/py/pw_ide/editors.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_ide/py/pw_ide/exceptions.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_ide/py/pw_ide/python.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_ide/py/pw_ide/settings.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_ide/py/pw_ide/status_reporter.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_ide/py/pw_ide/symlinks.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_ide/py/pw_ide/vscode.py"
+  ],
+  "tests": [
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_ide/py/commands_test.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_ide/py/cpp_test.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_ide/py/editors_test.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_ide/py/test_cases.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_ide/py/vscode_test.py"
+  ]
+}

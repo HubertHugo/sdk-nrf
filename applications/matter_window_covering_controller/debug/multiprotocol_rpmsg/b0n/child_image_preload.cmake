@@ -1,0 +1,11 @@
+# Generated file used for preloading a child image
+set(CMAKE_BUILD_TYPE "" CACHE INTERNAL "NCS child image controlled")
+set(CMAKE_VERBOSE_MAKEFILE "FALSE" CACHE INTERNAL "NCS child image controlled")
+set(BOARD_DIR "/work/nrfconnect/zephyr/boards/arm/thingy53_nrf5340" CACHE INTERNAL "NCS child image controlled")
+set(ZEPHYR_TOOLCHAIN_VARIANT "zephyr" CACHE INTERNAL "NCS child image controlled")
+set(PM_DOMAINS "CPUNET" CACHE INTERNAL "NCS child image controlled")
+set(CPUNET_PM_DOMAIN_DYNAMIC_PARTITION "multiprotocol_rpmsg" CACHE INTERNAL "NCS child image controlled")
+set(WEST_PYTHON "/home/ncs/toolchains/19bd58cb6a/usr/local/bin/python3.8" CACHE INTERNAL "NCS child image controlled")
+set(BOARD "thingy53_nrf5340_cpunet" CACHE INTERNAL "NCS child image controlled")
+set(DOMAIN "CPUNET" CACHE INTERNAL "NCS child image controlled")
+set(OVERLAY_CONFIG ";/work/nrfconnect/nrf/subsys/partition_manager/partition_manager_enabled.conf" CACHE INTERNAL "NCS child image controlled")

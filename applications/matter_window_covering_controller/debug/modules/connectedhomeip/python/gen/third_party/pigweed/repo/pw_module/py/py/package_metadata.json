@@ -1,0 +1,20 @@
+{
+  "gn_target_name": "//third_party/pigweed/repo/pw_module/py:py",
+  "inputs": [
+
+  ],
+  "setup_sources": [
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_module/py/pyproject.toml",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_module/py/setup.cfg",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_module/py/setup.py"
+  ],
+  "sources": [
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_module/py/pw_module/__init__.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_module/py/pw_module/__main__.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_module/py/pw_module/check.py",
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_module/py/pw_module/create.py"
+  ],
+  "tests": [
+    "../../../../../../modules/lib/matter/third_party/pigweed/repo/pw_module/py/check_test.py"
+  ]
+}
